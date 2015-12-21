@@ -45,6 +45,9 @@ $(document).ready(function(){
 
 }); 
 
+// Idem pour le nom de la fonction.
+// essaie de commencer par un verbe, 
+// par exemple : updateNbItem() qui reflète l'action effectuée par la function.
 function nbitem () {
 	var item = $('.rep:not(.done)').length;
 
